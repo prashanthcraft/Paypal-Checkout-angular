@@ -4,12 +4,12 @@
 
 Paypal Checkout is a [Angular 12](https://angular.io/docs) based application with the paypal integration using @wizdm.io library
 
-# Installation
+## Installation
 Use npm to install the @wizdm/paypal module:
 
 `npm install @wizdm/paypal`
 
-# Reference
+## Reference
 
 [@wizdm.io](https://wizdm.io)
 
