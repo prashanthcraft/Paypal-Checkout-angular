@@ -1,0 +1,6 @@
+<div>
+  <h1>{{title}} Checkout</h1>
+</div>
+
+<wm-paypal [style.width.px]="width" [height]="height" [layout]="layout" [shape]="shape" [color]="color" [label]="label"
+  [request]="order" (cancel)="onCancel($event)" (error)="onError($event)" #paypal enableStandardCardFields></wm-paypal>
